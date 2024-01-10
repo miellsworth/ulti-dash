@@ -1,0 +1,91 @@
+name,gender,team,week,goal,assist,assist_2,defence,throw_away,drop,wins,games_played,salary_gain,absent_gain,salary_start,salary_end,rank_start,rank_end,traded
+Adrian Chan,F,BizzNasty,1,3,2,0,1,1,1,0,2,"26,000",0,"100,000","126,000",1,49,0
+Alison Van de Laak,F,Nothing But Mammals,1,1,1,4,2,1,0,2,2,"48,000",0,"100,000","148,000",1,31,0
+Amanda Ho,F,Nothing But Mammals,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Amanda Wang,F,Team Jana,1,2,3,4,1,3,0,1,2,"49,000",0,"100,000","149,000",1,27,0
+Brittany Edgett,F,Bombastic Dump Swing Maneuver,1,0,0,3,1,1,1,1,2,"21,000",0,"100,000","121,000",1,53,0
+Charis Fung,F,Team Jana,1,3,4,5,1,4,0,1,2,"62,000",0,"100,000","162,000",1,17,0
+Chelsea Grimard,F,Bombastic Dump Swing Maneuver,1,5,4,0,2,1,1,1,2,"56,000",0,"100,000","156,000",1,21,0
+Elise Sweeney,F,Gravy Train,1,1,0,0,1,3,1,0,2,"2,000",0,"100,000","102,000",1,89,1
+Emily Bennett,F,Nothing But Mammals,1,1,10,6,2,2,2,2,2,"97,000",0,"100,000","197,000",1,8,1
+Gabriela Salguero-Palacino,F,Team Jana,1,5,1,3,1,2,1,1,2,"49,000",0,"100,000","149,000",1,27,0
+Georgia Boucher,F,Team Jana,1,1,2,2,1,4,0,1,2,"27,000",0,"100,000","127,000",1,46,0
+Hanna Thai,F,Gravy Train,1,2,1,0,1,1,2,0,2,"14,000",0,"100,000","114,000",1,76,0
+Hyuna Johnson,F,BizzNasty,1,2,1,1,0,0,0,0,2,"20,000",0,"100,000","120,000",1,57,0
+Irina Boyko,F,Team Jana,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Jana Schissel,F,Gravy Train,1,1,5,1,3,2,5,0,2,"36,000",0,"100,000","136,000",1,40,0
+Jeany Seto,F,Nothing But Mammals,1,0,0,1,0,3,1,2,2,"7,000",0,"100,000","107,000",1,83,0
+Jennifer Jenkins,F,Bombastic Dump Swing Maneuver,1,0,5,1,3,3,0,1,2,"44,000",0,"100,000","144,000",1,35,0
+Jill Kowalchuk,F,The Jags,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Juli Oshada,F,BizzNasty,1,1,2,1,3,2,2,0,2,"27,000",0,"100,000","127,000",1,46,1
+Julie Harper-Heir,F,Team Jana,1,1,1,1,0,0,1,1,2,"18,000",0,"100,000","118,000",1,75,0
+Kaiya Bauer,F,Nothing But Mammals,1,21,2,1,4,0,2,2,2,"146,000",0,"100,000","246,000",1,3,0
+Kara Kristensen,F,Bombastic Dump Swing Maneuver,1,4,1,1,2,0,0,1,2,"45,000",0,"100,000","145,000",1,34,0
+Laura Harding,F,Gravy Train,1,3,4,2,0,1,0,0,2,"43,000",0,"100,000","143,000",1,36,0
+Lauren Lee,F,Nothing But Mammals,1,5,3,2,0,1,1,2,2,"56,000",0,"100,000","156,000",1,21,0
+Leigh McNamara,F,BizzNasty,1,2,1,2,0,8,0,0,2,"9,000",0,"100,000","109,000",1,80,0
+Linda Ganley,F,Gravy Train,1,5,2,0,0,4,0,0,2,"27,000",0,"100,000","127,000",1,46,0
+Lyris Fiske,F,Bombastic Dump Swing Maneuver,1,4,1,2,0,3,1,1,2,"32,000",0,"100,000","132,000",1,43,0
+Madelyn Talpt,F,BizzNasty,1,0,1,1,0,2,0,0,2,"6,000",0,"100,000","106,000",1,85,1
+Mary Ann Clark,F,The Jags,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Megan Gatzsch,F,The Jags,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Megan Lee,F,Bombastic Dump Swing Maneuver,1,1,1,2,0,5,1,1,2,"13,000",0,"100,000","113,000",1,77,0
+Nekita Sidho,F,BizzNasty,1,1,2,1,1,1,1,0,2,"21,000",0,"100,000","121,000",1,53,0
+Paige Sweeney,F,The Jags,1,6,0,2,1,1,0,2,2,"53,000",0,"100,000","153,000",1,25,1
+Paige Ursenbach,F,The Jags,1,9,5,5,3,5,0,2,2,"110,000",0,"100,000","210,000",1,7,0
+Rachel Cheung,F,Bombastic Dump Swing Maneuver,1,1,1,3,0,3,1,1,2,"22,000",0,"100,000","122,000",1,52,0
+Rhiannon Kuhn,F,The Jags,1,3,3,4,5,1,0,2,2,"83,000",0,"100,000","183,000",1,13,1
+Roisin Larock,F,Gravy Train,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Samantha Gavrilko,F,Nothing But Mammals,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Jane Gaiga,F,BizzNasty,1,1,2,0,0,2,3,0,2,"5,000",0,"100,000","105,000",1,88,0
+Scout Rich,F,Team Jana,1,3,4,2,6,2,3,1,2,"70,000",0,"100,000","170,000",1,15,0
+Tali Glazer,F,The Jags,1,4,0,0,0,0,2,2,2,"26,000",0,"100,000","126,000",1,49,0
+Tze Yuin Tay,F,Gravy Train,1,1,3,0,2,1,1,0,2,"26,000",0,"100,000","126,000",1,49,0
+Brennan Weaver,M,Gravy Train,1,1,0,0,0,2,0,0,2,"1,000",0,"100,000","101,000",1,90,1
+Brett Goemans,M,Nothing But Mammals,1,7,9,4,2,3,0,2,2,"114,000",0,"100,000","214,000",1,5,1
+Charles Dourado,M,Gravy Train,1,4,1,0,0,2,1,0,2,"19,000",0,"100,000","119,000",1,74,0
+Dallen Mohagen,M,Nothing But Mammals,1,4,10,6,9,3,0,2,2,"149,000",0,"100,000","249,000",1,2,0
+Darren Mak,M,The Jags,1,3,2,3,1,1,1,2,2,"51,000",0,"100,000","151,000",1,26,0
+Douglas Olley,M,Team Jana,1,3,6,2,3,7,0,1,2,"61,000",0,"100,000","161,000",1,18,0
+Drew Radfelder,M,BizzNasty,1,4,3,2,4,7,2,0,2,"47,000",0,"100,000","147,000",1,32,0
+Eko Wangsawidjaya,M,Team Jana,1,1,6,2,0,1,1,1,2,"46,000",0,"100,000","146,000",1,33,0
+Eric McKenna,M,The Jags,1,6,4,3,3,3,0,2,2,"84,000",0,"100,000","184,000",1,12,1
+Everet Noonan,M,Nothing But Mammals,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Ghislain Boudreau,M,Nothing But Mammals,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Gregory Wong,M,Team Jana,1,4,1,1,1,2,0,1,2,"36,000",0,"100,000","136,000",1,40,0
+Hiro Imata,M,Team Jana,1,3,0,0,3,2,0,1,2,"31,000",0,"100,000","131,000",1,45,0
+Jacob Liu,M,Nothing But Mammals,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Jason Ristich,M,BizzNasty,1,1,4,2,3,6,0,0,2,"38,000",0,"100,000","138,000",1,38,0
+Jonah Buller,M,BizzNasty,1,1,0,0,1,9,0,0,2,"8,000",0,"100,000","108,000",1,82,0
+Jonathan Boyce,M,Team Jana,1,3,1,1,3,2,2,1,2,"37,000",0,"100,000","137,000",1,39,0
+Jonathon Alcock,M,Team Jana,1,2,1,2,2,2,2,1,2,"32,000",0,"100,000","132,000",1,43,0
+Josh John,M,Bombastic Dump Swing Maneuver,1,9,8,3,2,7,2,1,2,"97,000",0,"100,000","197,000",1,8,0
+Julien Lagacé,M,Nothing But Mammals,1,7,6,6,3,2,1,2,2,"114,000",0,"100,000","214,000",1,5,0
+Justin Lussier,M,Gravy Train,1,2,3,1,5,8,0,0,2,"39,000",0,"100,000","139,000",1,37,0
+Ken Truong,M,The Jags,1,2,1,3,3,3,0,2,2,"49,000",0,"100,000","149,000",1,27,0
+Keven Marshall,M,The Jags,1,5,7,5,2,7,1,2,2,"89,000",0,"100,000","189,000",1,11,0
+Landon Lavoie,M,The Jags,1,6,21,6,6,14,1,2,2,"175,000",0,"100,000","275,000",1,1,0
+Luke Jackson,M,BizzNasty,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,1
+Martin Glazer,M,Gravy Train,1,0,0,4,0,6,1,0,2,"6,000",0,"100,000","106,000",1,85,0
+Matt Tsuyuki,M,Bombastic Dump Swing Maneuver,1,7,3,4,3,4,0,1,2,"82,000",0,"100,000","182,000",1,14,0
+Matthew Mulrooney,M,BizzNasty,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Michael Ellsworth,M,BizzNasty,1,3,1,1,0,2,0,0,2,"21,000",0,"100,000","121,000",1,53,1
+Michael Lok,M,Bombastic Dump Swing Maneuver,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Michael Nel,M,Team Jana,1,3,4,3,0,2,1,1,2,"49,000",0,"100,000","149,000",1,27,0
+Nicholas Hu,M,Team Jana,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Nico Bennett Soraka,M,The Jags,1,0,0,1,0,0,1,2,2,"13,000",0,"100,000","113,000",1,77,0
+Owen Paetkau,M,BizzNasty,1,4,4,5,2,6,0,0,2,"63,000",0,"100,000","163,000",1,16,0
+Rex Szeto,M,Bombastic Dump Swing Maneuver,1,2,7,2,1,5,0,1,2,"55,000",0,"100,000","155,000",1,23,0
+Richard Cheng,M,Gravy Train,1,2,1,1,0,5,0,0,2,"10,000",0,"100,000","110,000",1,79,0
+Robbe Drugmand,M,Gravy Train,1,0,2,1,0,4,0,0,2,"7,000",0,"100,000","107,000",1,83,1
+Robert Engelbrecht,M,Gravy Train,1,0,1,1,1,2,1,0,2,"9,000",0,"100,000","109,000",1,80,1
+Robin Bauer,M,Nothing But Mammals,1,0,10,7,7,6,1,2,2,"116,000",0,"100,000","216,000",1,4,1
+Rohan Lange,M,Bombastic Dump Swing Maneuver,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Ryan Mason,M,The Jags,1,2,2,2,3,0,0,2,2,"55,000",0,"100,000","155,000",1,23,1
+Sandeep Kembhavi,M,Nothing But Mammals,1,7,4,4,2,1,0,2,2,"93,000",0,"100,000","193,000",1,10,1
+Sean Bowns,M,Gravy Train,1,2,1,1,1,1,1,0,2,"21,000",0,"100,000","121,000",1,53,0
+Stanley Vong,M,BizzNasty,1,0,0,1,1,7,1,0,2,"6,000",0,"100,000","106,000",1,85,1
+Steven Phui,M,Bombastic Dump Swing Maneuver,1,2,4,6,0,3,0,1,2,"59,000",0,"100,000","159,000",1,20,0
+Tomas Vasquez,M,The Jags,1,2,3,2,3,0,0,2,2,"60,000",0,"100,000","160,000",1,19,1
+Tyler Mulcock,M,Bombastic Dump Swing Maneuver,1,0,0,0,0,0,0,0,0,0,"19,128","100,000","119,128",1,58,0
+Yee Tran,M,Bombastic Dump Swing Maneuver,1,1,1,5,1,6,0,1,2,"33,000",0,"100,000","133,000",1,42,0
