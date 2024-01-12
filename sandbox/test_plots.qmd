@@ -1,0 +1,170 @@
+---
+title: "Test plots"
+format: html
+---
+
+```{r}
+#| label: Load libraries
+#| output: false
+#| echo: false
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(knitr)
+```
+
+```{r}
+#| label: Read and clean data
+#| output: false
+#| echo: false
+df <- read_csv('../data/ulti_stats_2023.csv') %>%
+  replace_na(list(
+    goal = 0,
+    assist = 0,
+    assist_2 = 0,
+    defence = 0,
+    throw_away = 0,
+    drop = 0,
+    wins = 0,
+    games_played = 0,
+    salary_gain = 0
+    )
+  )
+```
+# EDA
+```{r}
+#| label: Stats per week
+#| echo: false
+#| warning: false
+stats = c("goal", "assist", "assist_2", "defence", "throw_away", "drop")
+other_cols = c("name", "gender", "week")
+df %>% 
+  filter(games_played > 0) %>%
+  select(all_of(c(other_cols, stats))) %>%
+  pivot_longer(
+    cols = stats, 
+    names_to = "stat", 
+    values_to = "value"
+  ) %>%
+  group_by(week, stat) %>%
+  summarise(totals = sum(value)) %>%
+  ggplot(aes(x = week, y = totals, col = stat)) +
+  geom_line(size = 1) +
+  scale_x_continuous(n.breaks = 8) +
+  ylim(0, NA) +
+  theme_classic() +
+  theme(legend.position = "bottom")
+```
+
+```{r}
+#| label: Season leaders - goals
+#| echo: false
+#| warning: false
+stats = c("goal", "assist", "assist_2", "defence", "throw_away", "drop")
+other_cols = c("name", "gender", "week")
+df %>% 
+  filter(games_played > 0) %>%
+  select(all_of(c(other_cols, stats))) %>%
+  pivot_longer(
+    cols = stats, 
+    names_to = "stat", 
+    values_to = "value"
+  ) %>%
+  group_by(name, stat) %>%
+  summarise(totals = sum(value)) %>%
+  filter(stat == "goal") %>%
+  arrange(desc(totals)) %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(name, -totals), y = totals)) +
+  geom_col() +
+  xlab("") +
+  ylab("Goals") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+#| label: Female leaders - goals
+#| echo: false
+#| warning: false
+stats = c("goal", "assist", "assist_2", "defence", "throw_away", "drop")
+other_cols = c("name", "gender", "week")
+df %>% 
+  filter(games_played > 0, gender == "F") %>%
+  select(all_of(c(other_cols, stats))) %>%
+  pivot_longer(
+    cols = stats, 
+    names_to = "stat", 
+    values_to = "value"
+  ) %>%
+  group_by(name, stat) %>%
+  summarise(totals = sum(value)) %>%
+  filter(stat == "goal") %>%
+  arrange(desc(totals)) %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(name, -totals), y = totals)) +
+  geom_col() +
+  xlab("") +
+  ylab("Goals") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+#| label: Male leaders - goals
+#| echo: false
+#| warning: false
+stats = c("goal", "assist", "assist_2", "defence", "throw_away", "drop")
+other_cols = c("name", "gender", "week")
+df %>% 
+  filter(games_played > 0) %>%
+  filter(
+    gender == "F"
+  ) %>%
+  select(all_of(c(other_cols, stats))) %>%
+  pivot_longer(
+    cols = stats, 
+    names_to = "stat", 
+    values_to = "value"
+  ) %>%
+  group_by(name, stat) %>%
+  summarise(totals = sum(value)) %>%
+  filter(stat == "goal") %>%
+  arrange(desc(totals)) %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(name, -totals), y = totals)) +
+  geom_col() +
+  xlab("") +
+  ylab("Goals") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+#| label: Season leaders - assists
+#| echo: false
+#| warning: false
+stats = c("goal", "assist", "assist_2", "assists", "defence", "throw_away", "drop")
+other_cols = c("name", "gender", "week")
+df %>%
+  mutate(assists = assist + assist_2) %>%
+  filter(games_played > 0) %>%
+  select(all_of(c(other_cols, stats))) %>%
+  pivot_longer(
+    cols = stats, 
+    names_to = "stat", 
+    values_to = "value"
+  ) %>%
+  group_by(name, stat) %>%
+  summarise(totals = sum(value)) %>%
+  filter(stat == "assists") %>%
+  arrange(desc(totals)) %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(name, -totals), y = totals)) +
+  geom_col() +
+  xlab("") +
+  ylab("Assists") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
