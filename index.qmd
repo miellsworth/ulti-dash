@@ -1,11 +1,11 @@
 ---
 title: "2024 Parity League Stats"
-format: 
+format:
   dashboard:
     logo: images/lit-logo.png
     nav-buttons:
-      - icon: file-spreadsheet
-        href: "https://docs.google.com/spreadsheets/d/1RcyoH2Z3kTc3THY9ZaQVl8p6cX8bK1Zy03RAqKKA6Bg/edit?usp=sharing"
-        text: "raw data"
+      icon: file-spreadsheet
+      href: "https://docs.google.com/spreadsheets/d/1RcyoH2Z3kTc3THY9ZaQVl8p6cX8bK1Zy03RAqKKA6Bg/edit?usp=sharing"
+      text: "raw data"
     theme: slate
 ---

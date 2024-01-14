@@ -31,6 +31,7 @@ df <- read_csv('../data/ulti_stats_2023.csv') %>%
     salary_gain = 0
     )
   )
+df_2024 <- read_csv('../data/ulti_stats_2024.csv')
 ```
 # EDA
 ```{r}
@@ -168,3 +169,69 @@ df %>%
   theme_classic() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
+
+```{r}
+#| label: Season leaders - goals 2024
+#| echo: false
+#| warning: false
+stats = c("goal", "assist", "assist_2", "defence", "throw_away", "drop")
+other_cols = c("name", "gender", "week")
+df_2024 %>% 
+  filter(games_played > 0) %>%
+  select(all_of(c(other_cols, stats))) %>%
+  pivot_longer(
+    cols = stats, 
+    names_to = "stat", 
+    values_to = "value"
+  ) %>%
+  group_by(name, stat) %>%
+  summarise(totals = sum(value)) %>%
+  filter(stat == "goal") %>%
+  arrange(desc(totals)) %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(name, -totals), y = totals)) +
+  geom_col() +
+  xlab("") +
+  ylab("Goals") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+#| label: Season leaders - salary 2024
+#| echo: false
+#| warning: false
+stats = c("goal", "assist", "assist_2", "defence", "throw_away", "drop", "salary_end")
+other_cols = c("name", "gender", "week")
+df_2024 %>% 
+  filter(week == 2) %>%
+  select(all_of(c(other_cols, stats))) %>%
+  pivot_longer(
+    cols = stats, 
+    names_to = "stat", 
+    values_to = "value"
+  ) %>%
+  group_by(name, stat) %>%
+  summarise(totals = sum(value)) %>%
+  filter(stat == "salary_end") %>%
+  arrange(desc(totals)) %>%
+  head(10) %>%
+  ggplot(aes(x = reorder(name, -totals), y = totals)) +
+  geom_col() +
+  xlab("") +
+  ylab("Salary") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+```{r}
+#| label: Salary rankings 2024
+#| echo: false
+#| warning: false
+df_2024 %>%
+  filter(week == 2) %>%
+  select(c(name, team, salary_end)) %>%
+  mutate(ranking = row_number(desc(salary_end))) %>%
+  arrange(desc(salary_end))
+```
+
